@@ -1638,7 +1638,8 @@ Blocks Styles
   .service img {
     height: 38px; }
   .service h2 {
-    margin-top: 22px; }
+    margin-top: 22px;
+    color: #1344a5; }
     .service h2 a {
       color: #1344a5;
       font-size: 24px;
@@ -1700,8 +1701,8 @@ Blocks Styles
 
 .area__text::before {
   color: #fafafc;
-  content: "n-force";
-  font-size: 310px;
+  content: "N-Force";
+  font-size: 270px;
   font-weight: 700;
   letter-spacing: 16px;
   position: absolute;
@@ -1713,14 +1714,14 @@ Blocks Styles
   display: flex;
   flex-wrap: wrap; }
   .best__service .icon {
-    margin-right: 7px;
+    margin-right: -4px;
     background: rgba(0, 0, 0, 0) url("images/icons/bg.png") no-repeat scroll left top;
     color: linear-gradient(-90deg, #ff7000, #ff4000);
     font-size: 40px;
     height: 74%;
-    line-height: 123px;
+    line-height: 120px;
     text-align: center;
-    flex-basis: 31%; }
+    flex-basis: 33.3%; }
     .best__service .icon i {
       background: -webkit-linear-gradient(#ff7000, #ff4000);
       -webkit-background-clip: text;
@@ -1729,9 +1730,10 @@ Blocks Styles
     flex-basis: 67%; }
     .best__service .content h2 {
       font-size: 24px;
-      line-height: 47px;
+      line-height: 37px;
       margin-bottom: 6px;
-      margin-top: 25px; }
+      margin-top: 25px;
+      color: #1344a5; }
       .best__service .content h2 a {
         color: #1344a5;
         transition: 0.4s; }
@@ -1829,6 +1831,9 @@ Blocks Styles
   .best__service + .best__service {
     margin-top: 30px; }
 
+  .best__service .icon {
+    flex-basis: 28%; }
+
   .voopo__service.service__position {
     padding: 120px 0;
     top: 0; }
@@ -1892,7 +1897,7 @@ Blocks Styles
     padding-top: 40px; } }
 @media only screen and (max-width: 767px) {
   .best__service .icon {
-    flex-basis: 24%; }
+    flex-basis: 26%; }
 
   .best__service .content {
     flex-basis: 73%; }
@@ -1942,7 +1947,7 @@ Blocks Styles
     padding-bottom: 22px; } }
 @media only screen and (max-width: 479px) {
   .best__service .icon {
-    flex-basis: 41%; }
+    flex-basis: 48%; }
 
   .best__service .content {
     flex-basis: 100%; }
